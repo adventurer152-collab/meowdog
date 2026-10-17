@@ -1,0 +1,42 @@
+:root{
+  /* Cream — paper / storefront walls */
+  --cream-50:#FFFBF2;--cream-100:#FFF5E1;--cream-200:#FBE9C6;--cream-300:#F4D9A8;
+  /* Honey — primary warm yellow (豆漿油條 signboard) */
+  --honey-100:#FFF0C9;--honey-200:#FCE0A0;--honey-300:#F7CC73;--honey-400:#EFB64C;--honey-500:#E39D2E;--honey-600:#C27F1C;--honey-700:#8F5A12;
+  /* Apricot — terracotta pots, scarf, cones */
+  --apricot-100:#FFE6D6;--apricot-300:#F9B591;--apricot-500:#EE8A5B;--apricot-700:#A9502A;
+  /* Sakura — tulips, blush cheeks */
+  --sakura-100:#FFE8EE;--sakura-300:#F7B9C9;--sakura-500:#EC8AA5;--sakura-700:#A9435F;
+  /* Lavender — lanterns, awning stripes */
+  --lavender-100:#F1E9FB;--lavender-300:#CDB6EC;--lavender-500:#A685D8;--lavender-700:#6748A0;
+  /* Matcha — leaves, green shopfront */
+  --matcha-100:#E6F3E3;--matcha-300:#A9D3A0;--matcha-500:#6CAF73;--matcha-700:#3A7346;
+  /* Soda — ice-cream shop blue */
+  --soda-100:#E3F0FB;--soda-300:#A9CDEE;--soda-500:#6AA6DB;--soda-700:#336499;
+  /* Cocoa ink — warm brown outlines + text (never pure black) */
+  --ink-900:#4A372B;--ink-700:#6E5646;--ink-500:#977F6E;--ink-300:#CDBDAE;--ink-200:#E6DACB;--ink-100:#F3EADF;
+  --white:#FFFFFF;
+
+  /* Semantic */
+  --bg-page:var(--cream-100);
+  --bg-sunken:var(--cream-200);
+  --surface-card:var(--cream-50);
+  --surface-raised:var(--white);
+  --surface-accent:var(--honey-100);
+  --text-strong:var(--ink-900);
+  --text-body:var(--ink-700);
+  --text-muted:var(--ink-500);
+  --text-on-accent:var(--ink-900);
+  --text-link:var(--apricot-700);
+  --line-ink:var(--ink-900);
+  --line-soft:var(--ink-200);
+  --brand-primary:var(--honey-400);
+  --brand-primary-hover:var(--honey-300);
+  --brand-primary-press:var(--honey-500);
+  --brand-secondary:var(--lavender-300);
+  --focus-ring:var(--lavender-500);
+  --success-bg:var(--matcha-100);--success-fg:var(--matcha-700);--success-solid:var(--matcha-500);
+  --info-bg:var(--soda-100);--info-fg:var(--soda-700);--info-solid:var(--soda-500);
+  --warning-bg:var(--honey-100);--warning-fg:var(--honey-700);--warning-solid:var(--honey-400);
+  --danger-bg:var(--sakura-100);--danger-fg:var(--sakura-700);--danger-solid:var(--sakura-500);
+}

@@ -1,0 +1,23 @@
+:root{
+  /* Sticker shadows: hard, offset, warm-brown — like a printed outline lifted off paper */
+  --shadow-sticker-sm:0 2px 0 var(--ink-900);
+  --shadow-sticker:0 3px 0 var(--ink-900);
+  --shadow-sticker-lg:0 5px 0 var(--ink-900);
+  /* Soft glow for floating layers (dialogs, toasts) */
+  --shadow-float:0 3px 0 var(--ink-900),0 14px 30px rgba(110,72,40,.18);
+  --shadow-soft:0 6px 18px rgba(110,72,40,.12);
+  --ring-focus:0 0 0 3px var(--cream-50),0 0 0 5px var(--focus-ring);
+  --overlay-scrim:rgba(74,55,43,.38); /* @kind color */
+
+  --ease-bounce:cubic-bezier(.34,1.56,.64,1); /* @kind other */
+  --ease-soft:cubic-bezier(.25,.8,.35,1); /* @kind other */
+  --dur-fast:120ms; /* @kind other */
+  --dur-base:200ms; /* @kind other */
+  --dur-slow:360ms; /* @kind other */
+
+  /* Patterns */
+  --pattern-awning:repeating-linear-gradient(90deg,var(--lavender-300) 0 28px,var(--cream-50) 28px 56px); /* @kind other */
+  --pattern-awning-honey:repeating-linear-gradient(90deg,var(--honey-300) 0 28px,var(--cream-50) 28px 56px); /* @kind other */
+  --pattern-dots:radial-gradient(var(--cream-300) 1.5px,transparent 1.6px) 0 0/16px 16px; /* @kind other */
+  --pattern-grain:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .45 0 0 0 0 .3 0 0 0 0 .18 0 0 0 .09 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E"); /* @kind other */
+}

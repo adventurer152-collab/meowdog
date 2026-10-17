@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<meta name="design_doc_mode" content="canvas">
+<link rel="stylesheet" href="_ds/kawaii-warm-design-system-23931010-f372-4402-9632-3d6bd3c5c13f/tokens/fonts.css">
+<link rel="stylesheet" href="_ds/kawaii-warm-design-system-23931010-f372-4402-9632-3d6bd3c5c13f/tokens/fonts-latin.css">
+<link rel="stylesheet" href="_ds/kawaii-warm-design-system-23931010-f372-4402-9632-3d6bd3c5c13f/tokens/icons.css">
+<link rel="stylesheet" href="_ds/kawaii-warm-design-system-23931010-f372-4402-9632-3d6bd3c5c13f/tokens/colors.css">
+<link rel="stylesheet" href="_ds/kawaii-warm-design-system-23931010-f372-4402-9632-3d6bd3c5c13f/tokens/typography.css">
+<link rel="stylesheet" href="_ds/kawaii-warm-design-system-23931010-f372-4402-9632-3d6bd3c5c13f/tokens/spacing.css">
+<link rel="stylesheet" href="_ds/kawaii-warm-design-system-23931010-f372-4402-9632-3d6bd3c5c13f/tokens/effects.css">
+<link rel="stylesheet" href="_ds/kawaii-warm-design-system-23931010-f372-4402-9632-3d6bd3c5c13f/tokens/base.css">
+<link rel="stylesheet" href="_ds/kawaii-warm-design-system-23931010-f372-4402-9632-3d6bd3c5c13f/styles.css">
+<script src="_ds/kawaii-warm-design-system-23931010-f372-4402-9632-3d6bd3c5c13f/_ds_bundle.js"></script>
+<script src="./image-slot.js"></script>
+<style>
+body{margin:0;background:#EFE6D6;font-family:var(--font-body);color:var(--ink-700)}
+a{color:var(--apricot-700)}a:hover{color:var(--ink-900)}
+.hscroll::-webkit-scrollbar{display:none}
+.dv-turn{padding:40px 44px 32px;border-bottom:1px solid rgba(74,55,43,.12);scroll-margin-top:16px}
+.dv-thd{display:flex;align-items:baseline;gap:10px;margin:0 0 20px}
+.dv-tid{font:600 10px ui-monospace,Menlo,monospace;padding:3px 7px;background:var(--ink-900);color:#fff;border-radius:4px;text-decoration:none}
+.dv-tname{font:700 14px/1.2 var(--font-body);color:var(--ink-900)}
+.dv-opts{display:flex;flex-wrap:wrap;gap:40px;align-items:flex-start}
+.dv-opt{flex:none;display:flex;flex-direction:column;gap:10px;scroll-margin-top:16px}
+.dv-oid{font:600 10.5px ui-monospace,Menlo,monospace;padding:3px 7px;background:rgba(74,55,43,.1);color:var(--ink-900);border-radius:5px;text-decoration:none}
+.dv-olabel{display:flex;align-items:baseline;gap:8px;font:400 12px/1.3 var(--font-body);color:var(--ink-500)}
+.dv-opt:target .dv-oid{background:var(--lavender-500);color:#fff}
+.dv-next{margin:28px 0 0;font:13px/1.5 var(--font-body);color:var(--ink-500)}
+.dv-notes{max-width:1250px;margin:0 0 28px;font:14px/1.7 var(--font-body);color:var(--ink-700)}
+</style>
+</helmet>
+
+<section class="dv-turn" id="t2">
+<div class="dv-thd"><a class="dv-tid" href="#t2">2</a><span class="dv-tname">混搭：<a class="dv-oid" href="#1b">1b</a> 主視覺 ＋ <a class="dv-oid" href="#1a">1a</a> 優惠清單 ＋ <a class="dv-oid" href="#1c">1c</a> 每日我最靚（左右滑）</span></div>
+<div class="dv-opts">
+
+<div class="dv-opt" id="2a">
+<div class="dv-olabel"><a class="dv-oid" href="#2a">2a</a>滿版主視覺＋優惠清單＋拍立得橫滑</div>
+<div data-screen-label="2a 首頁" style="width:390px;border:3px solid var(--ink-900);border-radius:44px;background:var(--bg-page);overflow:hidden;box-shadow:0 6px 0 var(--ink-900),0 30px 60px rgba(110,72,40,.2);display:flex;flex-direction:column">
+  <div style="position:relative;height:440px;border-bottom:2px solid var(--ink-900)">
+    <image-slot id="hero-2a" shape="rect" placeholder="拖放你的寵物照片（滿版）"></image-slot>
+    <div style="position:absolute;top:0;left:0;right:0;height:44px;display:flex;align-items:center;justify-content:space-between;padding:0 28px;font:700 14px var(--font-body);color:var(--ink-900);pointer-events:none"><span style="background:var(--cream-50);border-radius:999px;padding:2px 10px">9:41</span><span style="display:flex;gap:6px;font-size:16px;background:var(--cream-50);border-radius:999px;padding:3px 10px"><i class="ph-bold ph-cell-signal-high"></i><i class="ph-bold ph-wifi-high"></i><i class="ph-bold ph-battery-high"></i></span></div>
+    <div style="position:absolute;top:56px;left:20px;right:20px;display:flex;justify-content:space-between;align-items:center;pointer-events:none">
+      <span style="display:flex;align-items:center;gap:4px;font:700 14px var(--font-body);color:var(--ink-900);background:var(--cream-50);border:2px solid var(--ink-900);border-radius:999px;padding:6px 12px;box-shadow:var(--shadow-sticker-sm)"><i class="ph-bold ph-map-pin"></i>大安區<i class="ph-bold ph-caret-down" style="font-size:12px"></i></span>
+      <span style="pointer-events:auto"><x-import component-from-global-scope="KawaiiWarmDesignSystem_239310.IconButton" icon="bell" label="通知" hint-size="44px,44px"></x-import></span>
+    </div>
+    <div style="position:absolute;left:20px;bottom:56px;pointer-events:none;transform:rotate(-2deg);background:var(--honey-300);border:2px solid var(--ink-900);border-radius:18px;padding:12px 18px;box-shadow:var(--shadow-sticker);display:flex;flex-direction:column;gap:2px">
+      <span style="font:800 28px/1.2 var(--font-display);color:var(--ink-900)">帶毛孩出門，</span>
+      <span style="font:800 28px/1.2 var(--font-display);color:var(--ink-900)">哪裡都是好去處</span>
+    </div>
+  </div>
+
+  <div style="padding:0 20px;margin-top:-26px;position:relative;z-index:2;display:flex;gap:10px;align-items:center">
+    <x-import component-from-global-scope="KawaiiWarmDesignSystem_239310.Input" icon="magnifying-glass" placeholder="今天想帶毛孩去哪？" style="flex:1" hint-size="100%,48px"></x-import>
+    <x-import component-from-global-scope="KawaiiWarmDesignSystem_239310.IconButton" icon="map-trifold" label="地圖找地點" variant="primary" hint-size="44px,44px"></x-import>
+  </div>
+
+  <div style="padding:20px 20px 0;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px">
+    <span style="display:flex;flex-direction:column;align-items:center;gap:6px;font:700 13px var(--font-body);color:var(--ink-900)"><span style="width:56px;height:56px;border-radius:18px;background:var(--apricot-100);border:2px solid var(--ink-900);box-shadow:var(--shadow-sticker-sm);display:flex;align-items:center;justify-content:center;font-size:26px"><i class="ph-bold ph-fork-knife"></i></span>餐廳</span>
+    <span style="display:flex;flex-direction:column;align-items:center;gap:6px;font:700 13px var(--font-body);color:var(--ink-900)"><span style="width:56px;height:56px;border-radius:18px;background:var(--honey-200);border:2px solid var(--ink-900);box-shadow:var(--shadow-sticker-sm);display:flex;align-items:center;justify-content:center;font-size:26px"><i class="ph-bold ph-coffee"></i></span>咖啡</span>
+    <span style="display:flex;flex-direction:column;align-items:center;gap:6px;font:700 13px var(--font-body);color:var(--ink-900)"><span style="width:56px;height:56px;border-radius:18px;background:var(--matcha-100);border:2px solid var(--ink-900);box-shadow:var(--shadow-sticker-sm);display:flex;align-items:center;justify-content:center;font-size:26px"><i class="ph-bold ph-tree"></i></span>公園</span>
+    <span style="display:flex;flex-direction:column;align-items:center;gap:6px;font:700 13px var(--font-body);color:var(--ink-900)"><span style="width:56px;height:56px;border-radius:18px;background:var(--lavender-100);border:2px solid var(--ink-900);box-shadow:var(--shadow-sticker-sm);display:flex;align-items:center;justify-content:center;font-size:26px"><i class="ph-bold ph-sliders-horizontal"></i></span>篩選</span>
+  </div>
+
+  <div style="padding:26px 20px 0;display:flex;flex-direction:column;gap:12px">
+    <div style="display:flex;align-items:center;justify-content:space-between">
+      <div style="display:flex;align-items:center;gap:8px">
+        <span style="font:700 20px/1.3 var(--font-display);color:var(--ink-900)">附近推薦</span>
+        <x-import component-from-global-scope="KawaiiWarmDesignSystem_239310.Badge" tone="sakura" solid="{{ true }}" hint-size="64px,22px">今日優惠</x-import>
+      </div>
+      <span style="font:700 13px var(--font-body);color:var(--apricot-700)">看全部 →</span>
+    </div>
+
+    <x-import component-from-global-scope="KawaiiWarmDesignSystem_239310.Card" tone="white" padding="14px 16px" interactive="{{ true }}" hint-size="100%,124px">
+      <div style="display:flex;gap:12px;align-items:center">
+        <span style="width:48px;height:48px;flex-shrink:0;border-radius:16px;background:var(--honey-200);border:2px solid var(--ink-900);display:flex;align-items:center;justify-content:center;font-size:24px;color:var(--ink-900)"><i class="ph-bold ph-coffee"></i></span>
+        <div style="flex:1;min-width:0;display:flex;flex-direction:column;gap:2px">
+          <span style="font:700 17px/1.3 var(--font-display);color:var(--ink-900)">柴柴咖啡 Shiba Café</span>
+          <span style="font-size:13px;color:var(--ink-500)">350m · 可進室內 · 營業至 20:00</span>
+        </div>
+        <span style="font:800 26px/1 var(--font-display);color:var(--sakura-700)">8<span style="font-size:15px">折</span></span>
+      </div>
+      <div style="margin-top:12px;padding-top:10px;border-top:2px dashed var(--ink-200);display:flex;justify-content:space-between;align-items:baseline;gap:8px;font-size:14px">
+        <span style="color:var(--ink-700)">毛孩鬆餅＋熱拿鐵</span>
+        <span style="display:flex;gap:6px;align-items:baseline;flex-shrink:0;white-space:nowrap"><span style="color:var(--ink-500);text-decoration:line-through;font-size:12px">NT$ 220</span><span style="font:800 16px var(--font-display);color:var(--ink-900)">NT$ 176</span></span>
+      </div>
+    </x-import>
+
+    <x-import component-from-global-scope="KawaiiWarmDesignSystem_239310.Card" tone="white" padding="14px 16px" interactive="{{ true }}" hint-size="100%,124px">
+      <div style="display:flex;gap:12px;align-items:center">
+        <span style="width:48px;height:48px;flex-shrink:0;border-radius:16px;background:var(--matcha-100);border:2px solid var(--ink-900);display:flex;align-items:center;justify-content:center;font-size:24px;color:var(--ink-900)"><i class="ph-bold ph-bowl-food"></i></span>
+        <div style="flex:1;min-width:0;display:flex;flex-direction:column;gap:2px">
+          <span style="font:700 17px/1.3 var(--font-display);color:var(--ink-900)">草地野餐食堂</span>
+          <span style="font-size:13px;color:var(--ink-500)">600m · 戶外座位 · 提供水碗</span>
+        </div>
+        <span style="font:800 26px/1 var(--font-display);color:var(--sakura-700)">85<span style="font-size:15px">折</span></span>
+      </div>
+      <div style="margin-top:12px;padding-top:10px;border-top:2px dashed var(--ink-200);display:flex;justify-content:space-between;align-items:baseline;gap:8px;font-size:14px">
+        <span style="color:var(--ink-700)">雞腿便當＋毛孩肉乾</span>
+        <span style="display:flex;gap:6px;align-items:baseline;flex-shrink:0;white-space:nowrap"><span style="color:var(--ink-500);text-decoration:line-through;font-size:12px">NT$ 180</span><span style="font:800 16px var(--font-display);color:var(--ink-900)">NT$ 153</span></span>
+      </div>
+    </x-import>
+
+    <x-import component-from-global-scope="KawaiiWarmDesignSystem_239310.Card" tone="white" padding="14px 16px" interactive="{{ true }}" hint-size="100%,124px">
+      <div style="display:flex;gap:12px;align-items:center">
+        <span style="width:48px;height:48px;flex-shrink:0;border-radius:16px;background:var(--sakura-100);border:2px solid var(--ink-900);display:flex;align-items:center;justify-content:center;font-size:24px;color:var(--ink-900)"><i class="ph-bold ph-hamburger"></i></span>
+        <div style="flex:1;min-width:0;display:flex;flex-direction:column;gap:2px">
+          <span style="font:700 17px/1.3 var(--font-display);color:var(--ink-900)">汪喵早午餐</span>
+          <span style="font-size:13px;color:var(--ink-500)">1.2km · 可進室內 · 需牽繩</span>
+        </div>
+        <span style="font:800 18px/1.1 var(--font-display);color:var(--sakura-700);text-align:right">第二份<br>半價</span>
+      </div>
+      <div style="margin-top:12px;padding-top:10px;border-top:2px dashed var(--ink-200);display:flex;justify-content:space-between;align-items:baseline;gap:8px;font-size:14px">
+        <span style="color:var(--ink-700)">毛孩鮮食餐盒</span>
+        <span style="font:800 16px var(--font-display);color:var(--ink-900)">NT$ 150 起</span>
+      </div>
+    </x-import>
+  </div>
+
+  <div style="padding:28px 0 24px;display:flex;flex-direction:column;gap:10px">
+    <div style="padding:0 20px;display:flex;align-items:baseline;justify-content:space-between">
+      <div style="display:flex;align-items:baseline;gap:8px">
+        <span style="font:800 20px/1.3 var(--font-display);color:var(--ink-900)">每日我最靚</span>
+        <span style="font:400 14px var(--font-hand);color:var(--ink-500)">往左滑看更多 →</span>
+      </div>
+      <span style="font:700 13px var(--font-body);color:var(--apricot-700)">投稿 →</span>
+    </div>
+    <div class="hscroll" style="display:flex;gap:18px;overflow-x:auto;scrollbar-width:none;scroll-snap-type:x mandatory;scroll-padding:0 24px;padding:12px 24px 16px">
+      <div style="flex:none;width:160px;scroll-snap-align:start;transform:rotate(-3deg);background:var(--white);border:2px solid var(--ink-900);border-radius:8px;padding:8px 8px 10px;box-shadow:var(--shadow-sticker);display:flex;flex-direction:column;gap:8px">
+        <div style="height:150px;border:2px solid var(--ink-900);border-radius:4px;overflow:hidden"><image-slot id="star-2a-1" shape="rect" placeholder="毛孩照片 1"></image-slot></div>
+        <span style="font:400 15px/1.3 var(--font-hand);color:var(--ink-900);text-align:center">豆花的午睡臉</span>
+        <span style="display:flex;justify-content:center;align-items:center;gap:3px;font:700 12px var(--font-body);color:var(--sakura-700)"><i class="ph-fill ph-heart"></i>128</span>
+      </div>
+      <div style="flex:none;width:160px;scroll-snap-align:start;transform:rotate(2.5deg);margin-top:14px;background:var(--white);border:2px solid var(--ink-900);border-radius:8px;padding:8px 8px 10px;box-shadow:var(--shadow-sticker);display:flex;flex-direction:column;gap:8px">
+        <div style="height:150px;border:2px solid var(--ink-900);border-radius:4px;overflow:hidden"><image-slot id="star-2a-2" shape="rect" placeholder="毛孩照片 2"></image-slot></div>
+        <span style="font:400 15px/1.3 var(--font-hand);color:var(--ink-900);text-align:center">麻糬卡在紙箱裡</span>
+        <span style="display:flex;justify-content:center;align-items:center;gap:3px;font:700 12px var(--font-body);color:var(--ink-500)"><i class="ph-bold ph-heart"></i>96</span>
+      </div>
+      <div style="flex:none;width:160px;scroll-snap-align:start;transform:rotate(-2deg);background:var(--white);border:2px solid var(--ink-900);border-radius:8px;padding:8px 8px 10px;box-shadow:var(--shadow-sticker);display:flex;flex-direction:column;gap:8px">
+        <div style="height:150px;border:2px solid var(--ink-900);border-radius:4px;overflow:hidden"><image-slot id="star-2a-3" shape="rect" placeholder="毛孩照片 3"></image-slot></div>
+        <span style="font:400 15px/1.3 var(--font-hand);color:var(--ink-900);text-align:center">湯圓第一次游泳</span>
+        <span style="display:flex;justify-content:center;align-items:center;gap:3px;font:700 12px var(--font-body);color:var(--ink-500)"><i class="ph-bold ph-heart"></i>74</span>
+      </div>
+      <div style="flex:none;width:160px;scroll-snap-align:start;transform:rotate(3deg);margin-top:10px;background:var(--white);border:2px solid var(--ink-900);border-radius:8px;padding:8px 8px 10px;box-shadow:var(--shadow-sticker);display:flex;flex-direction:column;gap:8px">
+        <div style="height:150px;border:2px solid var(--ink-900);border-radius:4px;overflow:hidden"><image-slot id="star-2a-4" shape="rect" placeholder="毛孩照片 4"></image-slot></div>
+        <span style="font:400 15px/1.3 var(--font-hand);color:var(--ink-900);text-align:center">黑糖偷穿主人的襪子</span>
+        <span style="display:flex;justify-content:center;align-items:center;gap:3px;font:700 12px var(--font-body);color:var(--ink-500)"><i class="ph-bold ph-heart"></i>61</span>
+      </div>
+    </div>
+    <div style="display:flex;justify-content:center;gap:6px">
+      <span style="width:18px;height:8px;border-radius:999px;background:var(--ink-900)"></span>
+      <span style="width:8px;height:8px;border-radius:999px;background:var(--ink-300)"></span>
+      <span style="width:8px;height:8px;border-radius:999px;background:var(--ink-300)"></span>
+      <span style="width:8px;height:8px;border-radius:999px;background:var(--ink-300)"></span>
+    </div>
+  </div>
+
+  <div style="display:flex;justify-content:space-around;padding:10px 12px 26px;background:var(--cream-50);border-top:2px solid var(--ink-900)">
+    <span style="display:flex;flex-direction:column;align-items:center;gap:3px;font:700 11px var(--font-body);color:var(--ink-900);min-width:56px"><span style="width:48px;height:30px;border-radius:999px;display:flex;align-items:center;justify-content:center;background:var(--honey-300);border:2px solid var(--ink-900);font-size:20px"><i class="ph-fill ph-house"></i></span>首頁</span>
+    <span style="display:flex;flex-direction:column;align-items:center;gap:3px;font:700 11px var(--font-body);color:var(--ink-500);min-width:56px"><span style="width:48px;height:30px;display:flex;align-items:center;justify-content:center;border:2px solid transparent;font-size:20px"><i class="ph-bold ph-map-trifold"></i></span>地圖</span>
+    <span style="display:flex;flex-direction:column;align-items:center;gap:3px;font:700 11px var(--font-body);color:var(--ink-500);min-width:56px"><span style="width:48px;height:30px;display:flex;align-items:center;justify-content:center;border:2px solid transparent;font-size:20px"><i class="ph-bold ph-chat-circle-dots"></i></span>社群</span>
+    <span style="display:flex;flex-direction:column;align-items:center;gap:3px;font:700 11px var(--font-body);color:var(--ink-500);min-width:56px"><span style="width:48px;height:30px;display:flex;align-items:center;justify-content:center;border:2px solid transparent;font-size:20px"><i class="ph-bold ph-paw-print"></i></span>我的</span>
+  </div>
+</div>
+</div>
+
+</div>
+<p class="dv-next">試試看：「<a class="dv-oid" href="#2a">2a</a> 的拍立得滑動時圓點跟著動」 · 「接著做店家詳情頁」 · 「優惠卡片加上店家照片」</p>
+</section>
+
+<section class="dv-turn" id="t1">
+<div class="dv-thd"><a class="dv-tid" href="#t1">1</a><span class="dv-tname">首頁 · 三種版型（依架構圖頁面一：地圖找地點／附近推薦／分類瀏覽／關鍵字搜尋）</span></div>
+<div class="dv-notes" style="display:flex;flex-wrap:wrap;gap:8px 28px">
+<span>主視覺：寵物照片＋一句標語</span>
+<span>附近推薦：今日優惠 3 家（餐點＋折扣）</span>
+<span>每日我最靚：1–2 格毛孩照片</span>
+<span style="color:var(--apricot-700)">照片框都可以直接拖放你的寵物照片進去</span>
+</div>
+<div class="dv-opts">
+
+<!-- ============ 1a ============ -->
+<div class="dv-opt" id="1a">
+<div class="dv-olabel"><a class="dv-oid" href="#1a">1a</a>經典堆疊：照片卡＋優惠清單＋雙格照片</div>
+<div data-screen-label="1a 首頁" style="width:390px;border:3px solid var(--ink-900);border-radius:44px;background:var(--bg-page);overflow:hidden;box-shadow:0 6px 0 var(--ink-900),0 30px 60px rgba(110,72,40,.2);display:flex;flex-direction:column">
+  <div style="height:44px;display:flex;align-items:center;justify-content:space-between;padding:0 28px;font:700 14px var(--font-body);color:var(--ink-900)"><span>9:41</span><span style="display:flex;gap:6px;font-size:16px"><i class="ph-bold ph-cell-signal-high"></i><i class="ph-bold ph-wifi-high"></i><i class="ph-bold ph-battery-high"></i></span></div>
+
+  <div style="padding:4px 20px 28px;display:flex;flex-direction:column;gap:18px">
+    <div style="display:flex;align-items:center;justify-content:space-between;gap:12px">
+      <div style="display:flex;flex-direction:column;gap:2px">
+        <span style="font:400 15px var(--font-hand);color:var(--apricot-700)">早安，豆花的家人 ☀</span>
+        <span style="display:flex;align-items:center;gap:4px;font:700 14px var(--font-body);color:var(--ink-900)"><i class="ph-bold ph-map-pin"></i>台北市 大安區<i class="ph-bold ph-caret-down" style="font-size:12px"></i></span>
+      </div>
+      <x-import component-from-global-scope="KawaiiWarmDesignSystem_239310.IconButton" icon="bell" label="通知" hint-size="44px,44px"></x-import>
+    </div>
+
+    <div style="position:relative;height:230px;border:2px solid var(--ink-900);border-radius:24px;overflow:hidden;box-shadow:var(--shadow-sticker)">
+      <image-slot id="hero-1a" shape="rect" placeholder="拖放你的寵物照片"></image-slot>
+      <div style="position:absolute;left:14px;right:14px;bottom:14px;pointer-events:none;display:flex">
+        <div style="background:var(--cream-50);border:2px solid var(--ink-900);border-radius:16px;padding:10px 14px;box-shadow:var(--shadow-sticker-sm);display:flex;flex-direction:column;gap:2px">
+          <span style="font:800 22px/1.25 var(--font-display);color:var(--ink-900)">帶毛孩出門，<br>哪裡都是好去處</span>
+          <span style="font:400 14px var(--font-hand);color:var(--ink-700)">附近有 28 家寵物友善店家 ♡</span>
+        </div>
+      </div>
+    </div>
+
+    <div style="display:flex;gap:10px;align-items:center">
+      <x-import component-from-global-scope="KawaiiWarmDesignSystem_239310.Input" icon="magnifying-glass" placeholder="搜尋店名、地區、餐點…" style="flex:1" hint-size="100%,48px"></x-import>
+      <x-import component-from-global-scope="KawaiiWarmDesignSystem_239310.IconButton" icon="map-trifold" label="地圖找地點" variant="primary" hint-size="44px,44px"></x-import>
+    </div>
+
+    <div style="display:flex;gap:8px;flex-wrap:wrap">
+      <x-import component-from-global-scope="KawaiiWarmDesignSystem_239310.Tag" icon="paw-print" selected="{{ true }}" hint-size="70px,36px">全部</x-import>
+      <x-import component-from-global-scope="KawaiiWarmDesignSystem_239310.Tag" icon="fork-knife" hint-size="70px,36px">餐廳</x-import>
+      <x-import component-from-global-scope="KawaiiWarmDesignSystem_239310.Tag" icon="coffee" hint-size="70px,36px">咖啡</x-import>
+      <x-import component-from-global-scope="KawaiiWarmDesignSystem_239310.Tag" icon="tree" hint-size="70px,36px">公園</x-import>
+    </div>
+
+    <div style="display:flex;flex-direction:column;gap:12px">
+      <div style="display:flex;align-items:center;justify-content:space-between">
+        <div style="display:flex;align-items:center;gap:8px">
+          <span style="font:700 20px/1.3 var(--font-display);color:var(--ink-900)">附近推薦</span>
+          <x-import component-from-global-scope="KawaiiWarmDesignSystem_239310.Badge" tone="sakura" solid="{{ true }}" hint-size="64px,22px">今日優惠</x-import>
+        </div>
+        <span style="font:700 13px var(--font-body);color:var(--apricot-700)">看全部 →</span>
+      </div>
+
+      <x-import component-from-global-scope="KawaiiWarmDesignSystem_239310.Card" tone="white" padding="14px 16px" interactive="{{ true }}" hint-size="100%,124px">
+        <div style="display:flex;gap:12px;align-items:center">
+          <span style="width:48px;height:48px;flex-shrink:0;border-radius:16px;background:var(--honey-200);border:2px solid var(--ink-900);display:flex;align-items:center;justify-content:center;font-size:24px;color:var(--ink-900)"><i class="ph-bold ph-coffee"></i></span>
+          <div style="flex:1;min-width:0;display:flex;flex-direction:column;gap:2px">
+            <span style="font:700 17px/1.3 var(--font-display);color:var(--ink-900)">柴柴咖啡 Shiba Café</span>
+            <span style="font-size:13px;color:var(--ink-500)">350m · 可進室內 · 營業至 20:00</span>
+          </div>
+          <span style="font:800 26px/1 var(--font-display);color:var(--sakura-700)">8<span style="font-size:15px">折</span></span>
+        </div>
+        <div style="margin-top:12px;padding-top:10px;border-top:2px dashed var(--ink-200);display:flex;justify-content:space-between;align-items:baseline;gap:8px;font-size:14px">
+          <span style="color:var(--ink-700)">毛孩鬆餅＋熱拿鐵</span>
+          <span style="display:flex;gap:6px;align-items:baseline;flex-shrink:0;white-space:nowrap"><span style="color:var(--ink-500);text-decoration:line-through;font-size:12px">NT$ 220</span><span style="font:800 16px var(--font-display);color:var(--ink-900)">NT$ 176</span></span>
+        </div>
+      </x-import>
+
+      <x-import component-from-global-scope="KawaiiWarmDesignSystem_239310.Card" tone="white" padding="14px 16px" interactive="{{ true }}" hint-size="100%,124px">
+        <div style="display:flex;gap:12px;align-items:center">
+          <span style="width:48px;height:48px;flex-shrink:0;border-radius:16px;background:var(--matcha-100);border:2px solid var(--ink-900);display:flex;align-items:center;justify-content:center;font-size:24px;color:var(--ink-900)"><i class="ph-bold ph-bowl-food"></i></span>
+          <div style="flex:1;min-width:0;display:flex;flex-direction:column;gap:2px">
+            <span style="font:700 17px/1.3 var(--font-display);color:var(--ink-900)">草地野餐食堂</span>
+            <span style="font-size:13px;color:var(--ink-500)">600m · 戶外座位 · 提供水碗</span>
+          </div>
+          <span style="font:800 26px/1 var(--font-display);color:var(--sakura-700)">85<span style="font-size:15px">折</span></span>
+        </div>
+        <div style="margin-top:12px;padding-top:10px;border-top:2px dashed var(--ink-200);display:flex;justify-content:space-between;align-items:baseline;gap:8px;font-size:14px">
+          <span style="color:var(--ink-700)">雞腿便當＋毛孩肉乾</span>
+          <span style="display:flex;gap:6px;align-items:baseline;flex-shrink:0;white-space:nowrap"><span style="color:var(--ink-500);text-decoration:line-through;font-size:12px">NT$ 180</span><span style="font:800 16px var(--font-display);color:var(--ink-900)">NT$ 153</span></span>
+        </div>
+      </x-import>
+
+      <x-import component-from-global-scope="KawaiiWarmDesignSystem_239310.Card" tone="white" padding="14px 16px" interactive="{{ true }}" hint-size="100%,124px">
+        <div style="display:flex;gap:12px;align-items:center">
+          <span style="width:48px;height:48px;flex-shrink:0;border-radius:16px;background:var(--sakura-100);border:2px solid var(--ink-900);display:flex;align-items:center;justify-content:center;font-size:24px;color:var(--ink-900)"><i class="ph-bold ph-hamburger"></i></span>
+          <div style="flex:1;min-width:0;display:flex;flex-direction:column;gap:2px">
+            <span style="font:700 17px/1.3 var(--font-display);color:var(--ink-900)">汪喵早午餐</span>
+            <span style="font-size:13px;color:var(--ink-500)">1.2km · 可進室內 · 需牽繩</span>
+          </div>
+          <span style="font:800 18px/1.1 var(--font-display);color:var(--sakura-700);text-align:right">第二份<br>半價</span>
+        </div>
+        <div style="margin-top:12px;padding-top:10px;border-top:2px dashed var(--ink-200);display:flex;justify-content:space-between;align-items:baseline;gap:8px;font-size:14px">
+          <span style="color:var(--ink-700)">毛孩鮮食餐盒</span>
+          <span style="font:800 16px var(--font-display);color:var(--ink-900)">NT$ 150 起</span>
+        </div>
+      </x-import>
+    </div>
+
+    <div style="display:flex;flex-direction:column;gap:12px">
+      <div style="display:flex;align-items:baseline;justify-content:space-between">
+        <div style="display:flex;align-items:baseline;gap:8px">
+          <span style="font:700 20px/1.3 var(--font-display);color:var(--ink-900)">每日我最靚</span>
+          <span style="font:400 14px var(--font-hand);color:var(--apricot-700)">今天的毛孩明星 ♡</span>
+        </div>
+        <span style="font:700 13px var(--font-body);color:var(--apricot-700)">投稿 →</span>
+      </div>
+      <div style="display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:12px">
+        <div style="border:2px solid var(--ink-900);border-radius:20px;background:var(--cream-50);overflow:hidden;box-shadow:var(--shadow-sticker);display:flex;flex-direction:column">
+          <div style="height:160px;border-bottom:2px solid var(--ink-900)"><image-slot id="star-1a-1" shape="rect" placeholder="毛孩照片 1"></image-slot></div>
+          <div style="padding:8px 12px 10px;display:flex;justify-content:space-between;align-items:center">
+            <div style="display:flex;flex-direction:column"><span style="font:700 15px var(--font-display);color:var(--ink-900)">豆花</span><span style="font-size:12px;color:var(--ink-500)">柴犬 · 3 歲</span></div>
+            <span style="display:flex;align-items:center;gap:3px;font:700 13px var(--font-body);color:var(--sakura-700)"><i class="ph-fill ph-heart"></i>128</span>
+          </div>
+        </div>
+        <div style="border:2px solid var(--ink-900);border-radius:20px;background:var(--cream-50);overflow:hidden;box-shadow:var(--shadow-sticker);display:flex;flex-direction:column">
+          <div style="height:160px;border-bottom:2px solid var(--ink-900)"><image-slot id="star-1a-2" shape="rect" placeholder="毛孩照片 2"></image-slot></div>
+          <div style="padding:8px 12px 10px;display:flex;justify-content:space-between;align-items:center">
+            <div style="display:flex;flex-direction:column"><span style="font:700 15px var(--font-display);color:var(--ink-900)">麻糬</span><span style="font-size:12px;color:var(--ink-500)">橘貓 · 2 歲</span></div>
+            <span style="display:flex;align-items:center;gap:3px;font:700 13px var(--font-body);color:var(--ink-500)"><i class="ph-bold ph-heart"></i>96</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div style="display:flex;justify-content:space-around;padding:10px 12px 26px;background:var(--cream-50);border-top:2px solid var(--ink-900)">
+    <span style="display:flex;flex-direction:column;align-items:center;gap:3px;font:700 11px var(--font-body);color:var(--ink-900);min-width:56px"><span style="width:48px;height:30px;border-radius:999px;display:flex;align-items:center;justify-content:center;background:var(--honey-300);border:2px solid var(--ink-900);font-size:20px"><i class="ph-fill ph-house"></i></span>首頁</span>
+    <span style="display:flex;flex-direction:column;align-items:center;gap:3px;font:700 11px var(--font-body);color:var(--ink-500);min-width:56px"><span style="width:48px;height:30px;display:flex;align-items:center;justify-content:center;border:2px solid transparent;font-size:20px"><i class="ph-bold ph-map-trifold"></i></span>地圖</span>
+    <span style="display:flex;flex-direction:column;align-items:center;gap:3px;font:700 11px var(--font-body);color:var(--ink-500);min-width:56px"><span style="width:48px;height:30px;display:flex;align-items:center;justify-content:center;border:2px solid transparent;font-size:20px"><i class="ph-bold ph-chat-circle-dots"></i></span>社群</span>
+    <span style="display:flex;flex-direction:column;align-items:center;gap:3px;font:700 11px var(--font-body);color:var(--ink-500);min-width:56px"><span style="width:48px;height:30px;display:flex;align-items:center;justify-content:center;border:2px solid transparent;font-size:20px"><i class="ph-bold ph-paw-print"></i></span>我的</span>
+  </div>
+</div>
+</div>
+
+<!-- ============ 1b ============ -->
+<div class="dv-opt" id="1b">
+<div class="dv-olabel"><a class="dv-oid" href="#1b">1b</a>滿版主視覺：優惠票券橫滑＋單張大照</div>
+<div data-screen-label="1b 首頁" style="width:390px;border:3px solid var(--ink-900);border-radius:44px;background:var(--bg-page);overflow:hidden;box-shadow:0 6px 0 var(--ink-900),0 30px 60px rgba(110,72,40,.2);display:flex;flex-direction:column">
+  <div style="position:relative;height:440px;border-bottom:2px solid var(--ink-900)">
+    <image-slot id="hero-1b" shape="rect" placeholder="拖放你的寵物照片（滿版）"></image-slot>
+    <div style="position:absolute;top:0;left:0;right:0;height:44px;display:flex;align-items:center;justify-content:space-between;padding:0 28px;font:700 14px var(--font-body);color:var(--ink-900);pointer-events:none"><span style="background:var(--cream-50);border-radius:999px;padding:2px 10px">9:41</span><span style="display:flex;gap:6px;font-size:16px;background:var(--cream-50);border-radius:999px;padding:3px 10px"><i class="ph-bold ph-cell-signal-high"></i><i class="ph-bold ph-wifi-high"></i><i class="ph-bold ph-battery-high"></i></span></div>
+    <div style="position:absolute;top:56px;left:20px;right:20px;display:flex;justify-content:space-between;align-items:center;pointer-events:none">
+      <span style="display:flex;align-items:center;gap:4px;font:700 14px var(--font-body);color:var(--ink-900);background:var(--cream-50);border:2px solid var(--ink-900);border-radius:999px;padding:6px 12px;box-shadow:var(--shadow-sticker-sm)"><i class="ph-bold ph-map-pin"></i>大安區<i class="ph-bold ph-caret-down" style="font-size:12px"></i></span>
+      <span style="pointer-events:auto"><x-import component-from-global-scope="KawaiiWarmDesignSystem_239310.IconButton" icon="bell" label="通知" hint-size="44px,44px"></x-import></span>
+    </div>
+    <div style="position:absolute;left:20px;bottom:56px;pointer-events:none;transform:rotate(-2deg);background:var(--honey-300);border:2px solid var(--ink-900);border-radius:18px;padding:12px 18px;box-shadow:var(--shadow-sticker);display:flex;flex-direction:column;gap:2px">
+      <span style="font:800 28px/1.2 var(--font-display);color:var(--ink-900)">帶毛孩出門，</span>
+      <span style="font:800 28px/1.2 var(--font-display);color:var(--ink-900)">哪裡都是好去處</span>
+    </div>
+  </div>
+
+  <div style="padding:0 20px;margin-top:-26px;position:relative;z-index:2;display:flex;gap:10px;align-items:center">
+    <x-import component-from-global-scope="KawaiiWarmDesignSystem_239310.Input" icon="magnifying-glass" placeholder="今天想帶毛孩去哪？" style="flex:1" hint-size="100%,48px"></x-import>
+    <x-import component-from-global-scope="KawaiiWarmDesignSystem_239310.IconButton" icon="map-trifold" label="地圖找地點" variant="primary" hint-size="44px,44px"></x-import>
+  </div>
+
+  <div style="padding:20px 20px 0;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px">
+    <span style="display:flex;flex-direction:column;align-items:center;gap:6px;font:700 13px var(--font-body);color:var(--ink-900)"><span style="width:56px;height:56px;border-radius:18px;background:var(--apricot-100);border:2px solid var(--ink-900);box-shadow:var(--shadow-sticker-sm);display:flex;align-items:center;justify-content:center;font-size:26px"><i class="ph-bold ph-fork-knife"></i></span>餐廳</span>
+    <span style="display:flex;flex-direction:column;align-items:center;gap:6px;font:700 13px var(--font-body);color:var(--ink-900)"><span style="width:56px;height:56px;border-radius:18px;background:var(--honey-200);border:2px solid var(--ink-900);box-shadow:var(--shadow-sticker-sm);display:flex;align-items:center;justify-content:center;font-size:26px"><i class="ph-bold ph-coffee"></i></span>咖啡</span>
+    <span style="display:flex;flex-direction:column;align-items:center;gap:6px;font:700 13px var(--font-body);color:var(--ink-900)"><span style="width:56px;height:56px;border-radius:18px;background:var(--matcha-100);border:2px solid var(--ink-900);box-shadow:var(--shadow-sticker-sm);display:flex;align-items:center;justify-content:center;font-size:26px"><i class="ph-bold ph-tree"></i></span>公園</span>
+    <span style="display:flex;flex-direction:column;align-items:center;gap:6px;font:700 13px var(--font-body);color:var(--ink-900)"><span style="width:56px;height:56px;border-radius:18px;background:var(--lavender-100);border:2px solid var(--ink-900);box-shadow:var(--shadow-sticker-sm);display:flex;align-items:center;justify-content:center;font-size:26px"><i class="ph-bold ph-sliders-horizontal"></i></span>篩選</span>
+  </div>
+
+  <div style="padding:26px 20px 12px;display:flex;align-items:center;justify-content:space-between">
+    <div style="display:flex;flex-direction:column;gap:2px">
+      <span style="font:700 20px/1.3 var(--font-display);color:var(--ink-900)">附近推薦 · 今日優惠</span>
+      <span style="font:400 14px var(--font-hand);color:var(--apricot-700)">還剩 6 小時，手刀出門吧</span>
+    </div>
+    <span style="font:700 13px var(--font-body);color:var(--apricot-700)">看全部 →</span>
+  </div>
+  <div class="hscroll" style="display:flex;gap:14px;overflow-x:auto;scrollbar-width:none;padding:4px 20px 12px">
+    <div style="flex:none;width:248px;border:2px solid var(--ink-900);border-radius:20px;background:var(--cream-50);box-shadow:var(--shadow-sticker);position:relative;overflow:hidden">
+      <div style="background:var(--honey-300);padding:14px 16px 16px;display:flex;justify-content:space-between;align-items:flex-end">
+        <span style="font:800 40px/1 var(--font-display);color:var(--ink-900)">8<span style="font-size:20px">折</span></span>
+        <span style="font:700 12px var(--font-body);color:var(--ink-900);background:var(--cream-50);border:2px solid var(--ink-900);border-radius:999px;padding:2px 8px">今日限定</span>
+      </div>
+      <div style="border-top:2px dashed var(--ink-900);padding:12px 16px 14px;display:flex;flex-direction:column;gap:4px">
+        <span style="font:700 17px/1.3 var(--font-display);color:var(--ink-900)">柴柴咖啡 Shiba Café</span>
+        <span style="font-size:14px;color:var(--ink-700)">毛孩鬆餅＋熱拿鐵 NT$ 176</span>
+        <span style="display:flex;gap:4px;align-items:center;font-size:12px;color:var(--ink-500)"><i class="ph-bold ph-map-pin"></i>350m · 可進室內</span>
+      </div>
+    </div>
+    <div style="flex:none;width:248px;border:2px solid var(--ink-900);border-radius:20px;background:var(--cream-50);box-shadow:var(--shadow-sticker);position:relative;overflow:hidden">
+      <div style="background:var(--matcha-300);padding:14px 16px 16px;display:flex;justify-content:space-between;align-items:flex-end">
+        <span style="font:800 40px/1 var(--font-display);color:var(--ink-900)">85<span style="font-size:20px">折</span></span>
+        <span style="font:700 12px var(--font-body);color:var(--ink-900);background:var(--cream-50);border:2px solid var(--ink-900);border-radius:999px;padding:2px 8px">送肉乾</span>
+      </div>
+      <div style="border-top:2px dashed var(--ink-900);padding:12px 16px 14px;display:flex;flex-direction:column;gap:4px">
+        <span style="font:700 17px/1.3 var(--font-display);color:var(--ink-900)">草地野餐食堂</span>
+        <span style="font-size:14px;color:var(--ink-700)">主人雞腿便當 NT$ 153</span>
+        <span style="display:flex;gap:4px;align-items:center;font-size:12px;color:var(--ink-500)"><i class="ph-bold ph-map-pin"></i>600m · 戶外座位</span>
+      </div>
+    </div>
+    <div style="flex:none;width:248px;border:2px solid var(--ink-900);border-radius:20px;background:var(--cream-50);box-shadow:var(--shadow-sticker);position:relative;overflow:hidden">
+      <div style="background:var(--sakura-300);padding:14px 16px 16px;display:flex;justify-content:space-between;align-items:flex-end">
+        <span style="font:800 28px/1.1 var(--font-display);color:var(--ink-900)">第二份半價</span>
+      </div>
+      <div style="border-top:2px dashed var(--ink-900);padding:12px 16px 14px;display:flex;flex-direction:column;gap:4px">
+        <span style="font:700 17px/1.3 var(--font-display);color:var(--ink-900)">汪喵早午餐</span>
+        <span style="font-size:14px;color:var(--ink-700)">毛孩鮮食餐盒 NT$ 150 起</span>
+        <span style="display:flex;gap:4px;align-items:center;font-size:12px;color:var(--ink-500)"><i class="ph-bold ph-map-pin"></i>1.2km · 需牽繩</span>
+      </div>
+    </div>
+  </div>
+
+  <div style="padding:22px 20px 28px;display:flex;flex-direction:column;gap:12px">
+    <div style="display:flex;align-items:baseline;justify-content:space-between">
+      <span style="font:700 20px/1.3 var(--font-display);color:var(--ink-900)">每日我最靚</span>
+      <span style="font:400 14px var(--font-hand);color:var(--ink-500)">10/17 今日之星</span>
+    </div>
+    <x-import component-from-global-scope="KawaiiWarmDesignSystem_239310.Card" tone="white" awning="{{ true }}" padding="0" hint-size="100%,460px">
+      <div style="height:340px;border-bottom:2px solid var(--ink-900);position:relative">
+        <image-slot id="star-1b" shape="rect" placeholder="今日毛孩明星照片"></image-slot>
+        <span style="position:absolute;top:12px;left:12px;pointer-events:none;font:800 13px var(--font-display);letter-spacing:.06em;color:var(--ink-900);background:var(--honey-300);border:2px solid var(--ink-900);border-radius:999px;padding:3px 10px">No.1</span>
+      </div>
+      <div style="padding:14px 16px 16px;display:flex;align-items:center;gap:12px">
+        <div style="flex:1;display:flex;flex-direction:column;gap:2px">
+          <span style="font:700 18px/1.3 var(--font-display);color:var(--ink-900)">豆花 · 柴犬 3 歲</span>
+          <span style="font:400 15px var(--font-hand);color:var(--ink-700)">在柴柴咖啡偷吃到鬆餅的瞬間 ✎</span>
+        </div>
+        <x-import component-from-global-scope="KawaiiWarmDesignSystem_239310.IconButton" icon="heart" label="按讚" active="{{ true }}" hint-size="44px,44px"></x-import>
+      </div>
+    </x-import>
+    <x-import component-from-global-scope="KawaiiWarmDesignSystem_239310.Button" variant="secondary" icon="camera" style="width:100%" hint-size="100%,48px">投稿我家毛孩</x-import>
+  </div>
+
+  <div style="display:flex;justify-content:space-around;padding:10px 12px 26px;background:var(--cream-50);border-top:2px solid var(--ink-900)">
+    <span style="display:flex;flex-direction:column;align-items:center;gap:3px;font:700 11px var(--font-body);color:var(--ink-900);min-width:56px"><span style="width:48px;height:30px;border-radius:999px;display:flex;align-items:center;justify-content:center;background:var(--honey-300);border:2px solid var(--ink-900);font-size:20px"><i class="ph-fill ph-house"></i></span>首頁</span>
+    <span style="display:flex;flex-direction:column;align-items:center;gap:3px;font:700 11px var(--font-body);color:var(--ink-500);min-width:56px"><span style="width:48px;height:30px;display:flex;align-items:center;justify-content:center;border:2px solid transparent;font-size:20px"><i class="ph-bold ph-map-trifold"></i></span>地圖</span>
+    <span style="display:flex;flex-direction:column;align-items:center;gap:3px;font:700 11px var(--font-body);color:var(--ink-500);min-width:56px"><span style="width:48px;height:30px;display:flex;align-items:center;justify-content:center;border:2px solid transparent;font-size:20px"><i class="ph-bold ph-chat-circle-dots"></i></span>社群</span>
+    <span style="display:flex;flex-direction:column;align-items:center;gap:3px;font:700 11px var(--font-body);color:var(--ink-500);min-width:56px"><span style="width:48px;height:30px;display:flex;align-items:center;justify-content:center;border:2px solid transparent;font-size:20px"><i class="ph-bold ph-paw-print"></i></span>我的</span>
+  </div>
+</div>
+</div>
+
+<!-- ============ 1c ============ -->
+<div class="dv-opt" id="1c">
+<div class="dv-olabel"><a class="dv-oid" href="#1c">1c</a>街角看板：遮雨棚招牌＋菜單板優惠＋拍立得</div>
+<div data-screen-label="1c 首頁" style="width:390px;border:3px solid var(--ink-900);border-radius:44px;background:var(--bg-page);background-image:radial-gradient(var(--cream-300) 1.5px,transparent 1.6px);background-size:16px 16px;overflow:hidden;box-shadow:0 6px 0 var(--ink-900),0 30px 60px rgba(110,72,40,.2);display:flex;flex-direction:column">
+  <div style="height:44px;display:flex;align-items:center;justify-content:space-between;padding:0 28px;font:700 14px var(--font-body);color:var(--ink-900);background:var(--cream-50)"><span>9:41</span><span style="display:flex;gap:6px;font-size:16px"><i class="ph-bold ph-cell-signal-high"></i><i class="ph-bold ph-wifi-high"></i><i class="ph-bold ph-battery-high"></i></span></div>
+  <div style="height:22px;background:var(--pattern-awning-honey);border-top:2px solid var(--ink-900);border-bottom:2px solid var(--ink-900)"></div>
+
+  <div style="padding:18px 20px 28px;display:flex;flex-direction:column;gap:20px">
+    <div style="display:flex;align-items:center;justify-content:space-between">
+      <div style="display:flex;flex-direction:column;gap:0">
+        <span style="font:700 12px var(--font-body);letter-spacing:.06em;color:var(--ink-500)">PET FRIENDLY · 寵物友善店家</span>
+        <span style="display:flex;align-items:center;gap:4px;font:800 22px/1.3 var(--font-display);color:var(--ink-900)">大安區<i class="ph-bold ph-caret-down" style="font-size:14px"></i></span>
+      </div>
+      <div style="display:flex;gap:8px">
+        <x-import component-from-global-scope="KawaiiWarmDesignSystem_239310.IconButton" icon="map-trifold" label="地圖找地點" hint-size="44px,44px"></x-import>
+        <x-import component-from-global-scope="KawaiiWarmDesignSystem_239310.IconButton" icon="bell" label="通知" hint-size="44px,44px"></x-import>
+      </div>
+    </div>
+
+    <div style="display:flex;flex-direction:column;align-items:center">
+      <div style="position:relative;z-index:2;background:var(--honey-300);border:2px solid var(--ink-900);border-radius:16px;padding:8px 20px;box-shadow:var(--shadow-sticker);margin-bottom:-18px;text-align:center">
+        <span style="font:800 21px/1.3 var(--font-display);color:var(--ink-900)">帶毛孩出門，哪裡都是好去處</span>
+      </div>
+      <div style="width:100%;height:260px;border:2px solid var(--ink-900);border-radius:120px 120px 24px 24px;overflow:hidden;background:var(--cream-50);box-shadow:var(--shadow-sticker)">
+        <image-slot id="hero-1c" shape="rect" placeholder="拖放你的寵物照片"></image-slot>
+      </div>
+      <span style="margin-top:10px;font:400 15px var(--font-hand);color:var(--apricot-700)">今天附近有 28 家店歡迎毛孩喔 →</span>
+    </div>
+
+    <x-import component-from-global-scope="KawaiiWarmDesignSystem_239310.Input" icon="magnifying-glass" placeholder="搜尋店名、地區、餐點…" hint-size="100%,48px"></x-import>
+
+    <div style="display:flex;gap:8px;flex-wrap:wrap">
+      <x-import component-from-global-scope="KawaiiWarmDesignSystem_239310.Tag" icon="paw-print" selected="{{ true }}" hint-size="70px,36px">全部</x-import>
+      <x-import component-from-global-scope="KawaiiWarmDesignSystem_239310.Tag" icon="fork-knife" hint-size="70px,36px">餐廳</x-import>
+      <x-import component-from-global-scope="KawaiiWarmDesignSystem_239310.Tag" icon="coffee" hint-size="70px,36px">咖啡</x-import>
+      <x-import component-from-global-scope="KawaiiWarmDesignSystem_239310.Tag" icon="tree" hint-size="70px,36px">公園</x-import>
+    </div>
+
+    <x-import component-from-global-scope="KawaiiWarmDesignSystem_239310.Card" tone="honey" awning="{{ true }}" padding="16px 18px 18px" hint-size="100%,300px">
+      <div style="display:flex;align-items:baseline;justify-content:space-between;margin-bottom:6px">
+        <span style="font:800 20px/1.3 var(--font-display);color:var(--ink-900)">今日優惠 · 附近推薦</span>
+        <span style="font:800 12px var(--font-display);letter-spacing:.06em;color:var(--ink-900)">TODAY</span>
+      </div>
+      <div style="display:flex;flex-direction:column">
+        <div style="padding:12px 0;border-bottom:2px dashed var(--honey-500);display:flex;flex-direction:column;gap:4px">
+          <div style="display:flex;justify-content:space-between;align-items:center;gap:8px">
+            <span style="font:700 16px var(--font-display);color:var(--ink-900)">柴柴咖啡 Shiba Café</span>
+            <x-import component-from-global-scope="KawaiiWarmDesignSystem_239310.Badge" tone="sakura" solid="{{ true }}" hint-size="40px,22px">8 折</x-import>
+          </div>
+          <div style="display:flex;align-items:baseline;gap:6px;font-size:14px;color:var(--ink-700)"><span>毛孩鬆餅＋熱拿鐵</span><span style="flex:1;border-bottom:2px dotted var(--ink-300);transform:translateY(-4px)"></span><span style="font:800 15px var(--font-display);color:var(--ink-900)">NT$ 176</span></div>
+          <span style="font-size:12px;color:var(--ink-500)">350m · 可進室內</span>
+        </div>
+        <div style="padding:12px 0;border-bottom:2px dashed var(--honey-500);display:flex;flex-direction:column;gap:4px">
+          <div style="display:flex;justify-content:space-between;align-items:center;gap:8px">
+            <span style="font:700 16px var(--font-display);color:var(--ink-900)">草地野餐食堂</span>
+            <x-import component-from-global-scope="KawaiiWarmDesignSystem_239310.Badge" tone="matcha" solid="{{ true }}" hint-size="48px,22px">85 折</x-import>
+          </div>
+          <div style="display:flex;align-items:baseline;gap:6px;font-size:14px;color:var(--ink-700)"><span>主人雞腿便當＋毛孩肉乾</span><span style="flex:1;border-bottom:2px dotted var(--ink-300);transform:translateY(-4px)"></span><span style="font:800 15px var(--font-display);color:var(--ink-900)">NT$ 153</span></div>
+          <span style="font-size:12px;color:var(--ink-500)">600m · 戶外座位</span>
+        </div>
+        <div style="padding:12px 0 0;display:flex;flex-direction:column;gap:4px">
+          <div style="display:flex;justify-content:space-between;align-items:center;gap:8px">
+            <span style="font:700 16px var(--font-display);color:var(--ink-900)">汪喵早午餐</span>
+            <x-import component-from-global-scope="KawaiiWarmDesignSystem_239310.Badge" tone="lavender" solid="{{ true }}" hint-size="72px,22px">第二份半價</x-import>
+          </div>
+          <div style="display:flex;align-items:baseline;gap:6px;font-size:14px;color:var(--ink-700)"><span>毛孩鮮食餐盒</span><span style="flex:1;border-bottom:2px dotted var(--ink-300);transform:translateY(-4px)"></span><span style="font:800 15px var(--font-display);color:var(--ink-900)">NT$ 150 起</span></div>
+          <span style="font-size:12px;color:var(--ink-500)">1.2km · 需牽繩</span>
+        </div>
+      </div>
+    </x-import>
+
+    <div style="display:flex;flex-direction:column;gap:14px">
+      <div style="display:flex;align-items:baseline;justify-content:space-between">
+        <span style="font:800 20px/1.3 var(--font-display);color:var(--ink-900)">每日我最靚</span>
+        <span style="font:700 13px var(--font-body);color:var(--apricot-700)">投稿 →</span>
+      </div>
+      <div style="display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:16px;padding:4px 4px 8px">
+        <div style="transform:rotate(-3deg);background:var(--white);border:2px solid var(--ink-900);border-radius:8px;padding:8px 8px 10px;box-shadow:var(--shadow-sticker);display:flex;flex-direction:column;gap:8px">
+          <div style="height:150px;border:2px solid var(--ink-900);border-radius:4px;overflow:hidden"><image-slot id="star-1c-1" shape="rect" placeholder="毛孩照片 1"></image-slot></div>
+          <span style="font:400 15px/1.3 var(--font-hand);color:var(--ink-900);text-align:center">豆花的午睡臉</span>
+          <span style="display:flex;justify-content:center;align-items:center;gap:3px;font:700 12px var(--font-body);color:var(--sakura-700)"><i class="ph-fill ph-heart"></i>128</span>
+        </div>
+        <div style="transform:rotate(2.5deg);margin-top:14px;background:var(--white);border:2px solid var(--ink-900);border-radius:8px;padding:8px 8px 10px;box-shadow:var(--shadow-sticker);display:flex;flex-direction:column;gap:8px">
+          <div style="height:150px;border:2px solid var(--ink-900);border-radius:4px;overflow:hidden"><image-slot id="star-1c-2" shape="rect" placeholder="毛孩照片 2"></image-slot></div>
+          <span style="font:400 15px/1.3 var(--font-hand);color:var(--ink-900);text-align:center">麻糬卡在紙箱裡</span>
+          <span style="display:flex;justify-content:center;align-items:center;gap:3px;font:700 12px var(--font-body);color:var(--ink-500)"><i class="ph-bold ph-heart"></i>96</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div style="display:flex;justify-content:space-around;padding:10px 12px 26px;background:var(--cream-50);border-top:2px solid var(--ink-900)">
+    <span style="display:flex;flex-direction:column;align-items:center;gap:3px;font:700 11px var(--font-body);color:var(--ink-900);min-width:56px"><span style="width:48px;height:30px;border-radius:999px;display:flex;align-items:center;justify-content:center;background:var(--honey-300);border:2px solid var(--ink-900);font-size:20px"><i class="ph-fill ph-house"></i></span>首頁</span>
+    <span style="display:flex;flex-direction:column;align-items:center;gap:3px;font:700 11px var(--font-body);color:var(--ink-500);min-width:56px"><span style="width:48px;height:30px;display:flex;align-items:center;justify-content:center;border:2px solid transparent;font-size:20px"><i class="ph-bold ph-map-trifold"></i></span>地圖</span>
+    <span style="display:flex;flex-direction:column;align-items:center;gap:3px;font:700 11px var(--font-body);color:var(--ink-500);min-width:56px"><span style="width:48px;height:30px;display:flex;align-items:center;justify-content:center;border:2px solid transparent;font-size:20px"><i class="ph-bold ph-chat-circle-dots"></i></span>社群</span>
+    <span style="display:flex;flex-direction:column;align-items:center;gap:3px;font:700 11px var(--font-body);color:var(--ink-500);min-width:56px"><span style="width:48px;height:30px;display:flex;align-items:center;justify-content:center;border:2px solid transparent;font-size:20px"><i class="ph-bold ph-paw-print"></i></span>我的</span>
+  </div>
+</div>
+</div>
+
+</div>
+<p class="dv-next">試試看：「用 <a class="dv-oid" href="#1b">1b</a> 的主視覺配 <a class="dv-oid" href="#1a">1a</a> 的優惠清單」 · 「<a class="dv-oid" href="#1c">1c</a> 的每日我最靚改成可左右滑」 · 「接著做店家詳情頁」</p>
+</section>
+</x-dc>
+</body>
+</html>

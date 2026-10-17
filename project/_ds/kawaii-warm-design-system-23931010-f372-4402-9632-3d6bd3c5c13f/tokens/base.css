@@ -1,0 +1,7 @@
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--bg-page);color:var(--text-body);font:var(--type-body);-webkit-font-smoothing:antialiased}
+h1,h2,h3,h4{color:var(--text-strong);margin:0;text-wrap:balance}
+p{text-wrap:pretty}
+a{color:var(--text-link);text-decoration-thickness:2px;text-underline-offset:3px}
+a:hover{color:var(--sakura-700)}
+::selection{background:var(--honey-200);color:var(--ink-900)}

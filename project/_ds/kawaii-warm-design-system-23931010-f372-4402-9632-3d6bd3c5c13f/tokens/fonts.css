@@ -1,0 +1,6 @@
+/* Google Fonts substitutes — no brand font files were supplied.
+   Baloo 2: chunky rounded Latin display (shop-sign lettering) — self-hosted, see fonts-latin.css
+   Nunito: rounded Latin body — self-hosted
+   Huninn (jf 粉圓): rounded Traditional Chinese for display + body — Google CDN
+   LXGW WenKai TC: hand-written accent (menu boards, notes) — Google CDN */
+@import url("https://fonts.googleapis.com/css2?family=Huninn&family=LXGW+WenKai+TC:wght@400;700&display=swap");
