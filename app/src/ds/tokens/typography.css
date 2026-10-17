@@ -1,0 +1,24 @@
+:root{
+  --font-display:"Baloo 2","Huninn","PingFang TC","Noto Sans TC",system-ui,sans-serif;
+  --font-body:"Nunito","Huninn","PingFang TC","Noto Sans TC",system-ui,sans-serif;
+  --font-hand:"LXGW WenKai TC","Huninn",cursive;
+
+  --fs-display:48px;--fs-h1:34px;--fs-h2:26px;--fs-h3:20px;--fs-body-lg:17px;--fs-body:15px;--fs-small:13px;--fs-tiny:11px;
+  --lh-tight:1.15; /* @kind other */
+  --lh-snug:1.3; /* @kind other */
+  --lh-body:1.6; /* @kind other */
+  --fw-regular:400; /* @kind other */
+  --fw-semibold:600; /* @kind other */
+  --fw-bold:700; /* @kind other */
+  --fw-black:800; /* @kind other */
+  --tracking-sign:0.04em; /* @kind other */
+  --tracking-label:0.06em; /* @kind other */
+
+  --type-display:var(--fw-black) var(--fs-display)/var(--lh-tight) var(--font-display);
+  --type-h1:var(--fw-bold) var(--fs-h1)/var(--lh-tight) var(--font-display);
+  --type-h2:var(--fw-bold) var(--fs-h2)/var(--lh-snug) var(--font-display);
+  --type-h3:var(--fw-bold) var(--fs-h3)/var(--lh-snug) var(--font-display);
+  --type-body:var(--fw-regular) var(--fs-body)/var(--lh-body) var(--font-body);
+  --type-label:var(--fw-bold) var(--fs-small)/1.2 var(--font-body);
+  --type-hand:var(--fw-regular) var(--fs-body-lg)/1.4 var(--font-hand);
+}

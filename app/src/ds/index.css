@@ -1,0 +1,9 @@
+/* Kawaii Warm design system tokens (copied from the Claude Design bundle). */
+@import '@phosphor-icons/web/bold';
+@import '@phosphor-icons/web/fill';
+@import './tokens/fonts-latin.css';
+@import './tokens/colors.css';
+@import './tokens/typography.css';
+@import './tokens/spacing.css';
+@import './tokens/effects.css';
+@import './tokens/base.css';
