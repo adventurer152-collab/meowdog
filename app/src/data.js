@@ -101,11 +101,11 @@ export const deals = [
   },
 ];
 
-// 今日公園活動 · park-daily-events 技能的結果（2026-10-17（六），松江南京站）
+// 今日公園活動 · park-daily-events 技能的結果（2026-10-20（二），松江南京站）
 // 1.5km 內只有 2 處，已擴大至 3km。距離為依地址估算的直線距離。
 export const parksQuery = {
   center: '捷運松江南京站',
-  date: '2026/10/17（六）',
+  date: '2026/10/20（二）',
   radius: '1.5km（已擴大至 3km）',
 };
 
@@ -133,24 +133,18 @@ export const parks = [
     name: '花博公園圓山園區',
     distance: '約 2.5km（擴大範圍）',
     petRule: '牽繩或外出籠，自備飲水與清潔用品',
-    events: [
-      {
-        time: '14:00–19:00',
-        title: '野餐我PET你 滾草皮音樂市集',
-        detail: '音樂表演、野餐市集、寵物講座、人寵互動課、義診與領養資訊・花海／環形廣場',
-        price: '免費',
-        pet: true,
-        note: '另一來源寫至 18:00',
-      },
-      {
-        time: '10:00–18:00',
-        title: '花博農民市集',
-        detail: '每週六日固定舉辦・圓山站 1 號出口附近',
-        price: '免費入場',
-      },
-    ],
+    events: [],
     pending: ['好事發生市集（9/4–10/26 期間，逐場日期未查到）'],
-    source: 'https://www.expopark.taipei/News_Photo_Content.aspx?n=247&sms=9029&s=4570',
+    source: 'https://www.expopark.taipei/',
+  },
+  {
+    id: 'sun-yat-sen',
+    name: '國父紀念館（中山公園）',
+    distance: '約 3km（擴大範圍）',
+    petRule: '未查到，依現場公告',
+    events: [],
+    pending: [],
+    source: 'https://www.moneyweekly.com.tw/ArticleData/Info/Article/256171/',
   },
 ];
 
