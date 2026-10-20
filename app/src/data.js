@@ -101,11 +101,11 @@ export const deals = [
   },
 ];
 
-// 今日公園活動 · park-daily-events 技能的結果（2026-10-20（二），松江南京站）
+// 今日公園活動 · park-daily-events 技能的結果（2026-10-21（三），松江南京站）
 // 1.5km 內只有 2 處，已擴大至 3km。距離為依地址估算的直線距離。
 export const parksQuery = {
   center: '捷運松江南京站',
-  date: '2026/10/20（二）',
+  date: '2026/10/21（三）',
   radius: '1.5km（已擴大至 3km）',
 };
 
@@ -116,7 +116,7 @@ export const parks = [
     distance: '約 900m',
     petRule: '未查到，依現場公告',
     events: [],
-    pending: [],
+    pending: ['2026 條通祭 — 條音派對（多功能活動草皮區，日期未查到）'],
     source: 'https://parks.taipei/parks/m2/pkl_parks_m2C.php?sid=431',
   },
   {
