@@ -101,11 +101,11 @@ export const deals = [
   },
 ];
 
-// 今日公園活動 · park-daily-events 技能的結果（2026-10-21（三），松江南京站）
+// 今日公園活動 · park-daily-events 技能的結果（2026-10-22（四），松江南京站）
 // 1.5km 內只有 2 處，已擴大至 3km。距離為依地址估算的直線距離。
 export const parksQuery = {
   center: '捷運松江南京站',
-  date: '2026/10/21（三）',
+  date: '2026/10/22（四）',
   radius: '1.5km（已擴大至 3km）',
 };
 
