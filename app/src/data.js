@@ -101,11 +101,11 @@ export const deals = [
   },
 ];
 
-// 今日公園活動 · park-daily-events 技能的結果（2026-10-24（六），松江南京站）
+// 今日公園活動 · park-daily-events 技能的結果（2026-10-25（日），松江南京站）
 // 1.5km 內只有 2 處，已擴大至 3km。距離為依地址估算的直線距離。
 export const parksQuery = {
   center: '捷運松江南京站',
-  date: '2026/10/24（六）',
+  date: '2026/10/25（日）',
   radius: '1.5km（已擴大至 3km）',
 };
 
@@ -115,17 +115,9 @@ export const parks = [
     name: '林森公園／康樂公園',
     distance: '約 900m',
     petRule: '未查到，依現場公告',
-    events: [
-      {
-        time: '時間未查到',
-        title: '2026 條通祭 — 條音派對',
-        detail: '多功能活動草皮區・10/24–10/25',
-        price: '費用未查到',
-        note: '僅一個來源，出發前請確認',
-      },
-    ],
+    events: [],
     pending: [],
-    source: 'https://wekengo.tw/city/taipei/weekend',
+    source: 'https://parks.taipei/parks/m2/pkl_parks_m2C.php?sid=431',
   },
   {
     id: 'rongxing',
